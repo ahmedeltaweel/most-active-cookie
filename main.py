@@ -26,10 +26,10 @@ if __name__ == '__main__':
                         help='[optional] The nth most active cookie. default is 0 which means the most active.')
 
     args = parser.parse_args()
-    parsed_date = datetime.fromisoformat(args.d).date()
+    parsed_date = datetime.fromisoformat(args.date).date()
 
     # application logic
-    Cparser = CookieFileParser(args.f)
+    Cparser = CookieFileParser(args.file)
     finder = ActiveCookieFinder(cookie_logs=Cparser.parse())
     most_active_logs = finder.get_most_active(date=parsed_date, greater_index=args.n)
     print(*most_active_logs, sep="\n")
