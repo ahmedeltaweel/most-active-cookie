@@ -1,7 +1,8 @@
 import argparse
 from datetime import datetime
 
-from parsers.cookie_file_parser import CookieFileParser, ActiveCookieFinder
+from parsers.cookie_file_parser import CookieFileParser
+from parsers.active_cookie_finder import ActiveCookieFinder
 
 if __name__ == '__main__':
     # cli parser

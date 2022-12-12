@@ -37,6 +37,10 @@ optional arguments:
                         active.
 ```
 
+To run the unit/integration tests. in root dir, run:
+
+> $ python3 -m unittest
+
 #### Example output to stdout:
 most active cookie or cookies printed in seperate lines.
 ``` 
