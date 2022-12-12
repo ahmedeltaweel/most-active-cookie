@@ -37,7 +37,13 @@ optional arguments:
                         active.
 ```
 
-Example output to stdout:
+#### Example output to stdout:
+most active cookie or cookies printed in seperate lines.
 ``` 
 AtY0laUfhglK3lC7 
+AtY0laUfhglK3lC8
+```
+
+```
+No logs found
 ```
